@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjuktha Reddy — Artist Portfolio</title>
+    <meta name="description" content="Portfolio of Sanjuktha Reddy, a 17-year-old emerging artist exploring the world through paintings, drawings, and mixed media.">
+    <meta name="keywords" content="Sanjuktha Reddy, artist, portfolio, paintings, drawings, fine art, young artist, emerging artist">
+    <meta name="author" content="Sanjuktha Reddy">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Sanjuktha Reddy — Artist Portfolio">
+    <meta property="og:description" content="Exploring the world through art. Paintings, drawings & more.">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Cormorant:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-logo">SANJUKTHA REDDY</div>
+        <div class="loading-subtitle">Artist &middot; Portfolio</div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor" id="customCursor"></div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <a href="#hero" class="header-logo">
+            Sanjuktha Reddy
+            <span>Artist &middot; Portfolio</span>
+        </a>
+        <nav class="nav-links" id="navLinks">
+            <a href="#hero" class="active">Home</a>
+            <a href="#featured">Featured</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav" id="mobileNav">
+        <a href="#hero">Home</a>
+        <a href="#featured">Featured</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-line"></div>
+        <div class="hero-bg-line"></div>
+        <div class="hero-bg-line"></div>
+
+        <div class="hero-overline">Emerging Artist &middot; India</div>
+        <h1 class="hero-title">Sanjuktha<br><em>Reddy</em></h1>
+        <p class="hero-subtitle">
+            Exploring the boundaries between colour, emotion, and form — 
+            one brushstroke at a time.
+        </p>
+        <div class="hero-cta">
+            <a href="#gallery" class="btn-primary">View Gallery</a>
+            <a href="#about" class="btn-secondary">
+                Learn More
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+
+        <div class="hero-scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="featured-section section" id="featured">
+        <div class="section-header reveal">
+            <div class="section-overline">Selected Works</div>
+            <h2 class="section-title">Featured Artwork</h2>
+            <p class="section-desc">A curated selection of recent paintings and drawings that capture moments of beauty, stillness, and wonder.</p>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="featured-scroll" id="featuredScroll">
+            <div class="featured-card reveal reveal-delay-1">
+                <div class="featured-card-img">
+                    <img src="images/painting_lotus_pond.png" alt="Dawn at the Lotus Pond" loading="lazy">
+                </div>
+                <div class="featured-card-info">
+                    <div class="featured-card-title">Dawn at the Lotus Pond</div>
+                    <div class="featured-card-meta">Watercolor on Paper &middot; 2025</div>
+                </div>
+            </div>
+            <div class="featured-card reveal reveal-delay-2">
+                <div class="featured-card-img">
+                    <img src="images/drawing_portrait.png" alt="Quiet Contemplation" loading="lazy">
+                </div>
+                <div class="featured-card-info">
+                    <div class="featured-card-title">Quiet Contemplation</div>
+                    <div class="featured-card-meta">Charcoal on Paper &middot; 2025</div>
+                </div>
+            </div>
+            <div class="featured-card reveal reveal-delay-3">
+                <div class="featured-card-img">
+                    <img src="images/painting_abstract.png" alt="Oceanic Dreams" loading="lazy">
+                </div>
+                <div class="featured-card-info">
+                    <div class="featured-card-title">Oceanic Dreams</div>
+                    <div class="featured-card-meta">Acrylic on Canvas &middot; 2025</div>
+                </div>
+            </div>
+            <div class="featured-card reveal reveal-delay-4">
+                <div class="featured-card-img">
+                    <img src="images/painting_sunset.png" alt="Golden Hour" loading="lazy">
+                </div>
+                <div class="featured-card-info">
+                    <div class="featured-card-title">Golden Hour</div>
+                    <div class="featured-card-meta">Oil on Canvas &middot; 2024</div>
+                </div>
+            </div>
+            <div class="featured-card reveal">
+                <div class="featured-card-img">
+                    <img src="images/painting_garden.png" alt="The Secret Garden" loading="lazy">
+                </div>
+                <div class="featured-card-info">
+                    <div class="featured-card-title">The Secret Garden</div>
+                    <div class="featured-card-meta">Watercolor on Paper &middot; 2024</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section section" id="gallery">
+        <div class="section-header reveal">
+            <div class="section-overline">Portfolio</div>
+            <h2 class="section-title">Gallery</h2>
+            <p class="section-desc">Browse through my collection of paintings, drawings, and studies.</p>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="gallery-filters reveal">
+            <button class="filter-btn active" data-filter="all">All Works</button>
+            <button class="filter-btn" data-filter="painting">Paintings</button>
+            <button class="filter-btn" data-filter="drawing">Drawings</button>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+            <div class="gallery-item reveal" data-category="painting" data-title="Dawn at the Lotus Pond" data-medium="Watercolor on Paper, 2025">
+                <img src="images/painting_lotus_pond.png" alt="Dawn at the Lotus Pond" loading="lazy">
+                <div class="gallery-item-overlay">
+                    <h4>Dawn at the Lotus Pond</h4>
+                    <span>Watercolor on Paper &middot; 2025</span>
+                </div>
+            </div>
+            <div class="gallery-item wide reveal" data-category="painting" data-title="The Old Quarter" data-medium="Oil on Canvas, 2025">
+                <img src="images/painting_street_scene.png" alt="The Old Quarter" loading="lazy">
+                <div class="gallery-item-overlay">
+                    <h4>The Old Quarter</h4>
+                    <span>Oil on Canvas &middot; 2025</span>
+                </div>
+            </div>
+            <div class="gallery-item reveal" data-category="drawing" data-title="Quiet Contemplation" data-medium="Charcoal on Paper, 2025">
+                <img src="images/drawing_portrait.png" alt="Quiet Contemplation" loading="lazy">
+                <div class="gallery-item-overlay">
+                    <h4>Quiet Contemplation</h4>
+                    <span>Charcoal on Paper &middot; 2025</span>
+                </div>
+            </div>
+            <div class="gallery-item tall reveal" data-category="painting" data-title="Oceanic Dreams" data-medium="Acrylic on Canvas, 2025">
+                <img src="images/painting_abstract.png" alt="Oceanic Dreams" loading="lazy">
+                <div class="gallery-item-overlay">
+                    <h4>Oceanic Dreams</h4>
+                    <span>Acrylic on Canvas &middot; 2025</span>
+                </div>
+            </div>
+            <div class="gallery-item reveal" data-category="drawing" data-title="Spring Song" data-medium="Ink & Wash, 2024">
+                <img src="images/drawing_birds.png" alt="Spring Song" loading="lazy">
+                <div class="gallery-item-overlay">
+                    <h4>Spring Song</h4>
+                    <span>Ink &amp; Wash &middot; 2024</span>
+                </div>
+            </div>
+            <div class="gallery-item reveal" data-category="painting" data-title="Golden Hour" data-medium="Oil on Canvas, 2024">
+                <img src="images/painting_sunset.png" alt="Golden Hour" loading="lazy">
+                <div class="gallery-item-overlay">
+                    <h4>Golden Hour</h4>
+                    <span>Oil on Canvas &middot; 2024</span>
+                </div>
+            </div>
+            <div class="gallery-item reveal" data-category="drawing" data-title="Study of Hands" data-medium="Graphite on Paper, 2024">
+                <img src="images/drawing_hands.png" alt="Study of Hands" loading="lazy">
+                <div class="gallery-item-overlay">
+                    <h4>Study of Hands</h4>
+                    <span>Graphite on Paper &middot; 2024</span>
+                </div>
+            </div>
+            <div class="gallery-item reveal" data-category="painting" data-title="The Secret Garden" data-medium="Watercolor on Paper, 2024">
+                <img src="images/painting_garden.png" alt="The Secret Garden" loading="lazy">
+                <div class="gallery-item-overlay">
+                    <h4>The Secret Garden</h4>
+                    <span>Watercolor on Paper &middot; 2024</span>
+                </div>
+            </div>
+            <div class="gallery-item reveal" data-category="drawing" data-title="Still Life Study" data-medium="Graphite on Paper, 2024">
+                <img src="images/drawing_still_life.png" alt="Still Life Study" loading="lazy">
+                <div class="gallery-item-overlay">
+                    <h4>Still Life Study</h4>
+                    <span>Graphite on Paper &middot; 2024</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section section" id="about">
+        <div class="about-content">
+            <div class="about-image reveal">
+                <div class="about-image-frame">
+                    <img src="images/painting_garden.png" alt="Sanjuktha Reddy at work" loading="lazy">
+                </div>
+            </div>
+            <div class="about-text">
+                <div class="section-overline reveal">About the Artist</div>
+                <h2 class="reveal">Sanjuktha Reddy</h2>
+                <p class="reveal">
+                    I'm a 17-year-old artist from India with a deep passion for bringing the world around me to life on canvas and paper. My journey with art began as a child, sketching in the margins of school notebooks, and has blossomed into a dedicated pursuit of visual storytelling.
+                </p>
+                <p class="reveal">
+                    My work spans watercolors, oils, acrylics, charcoal, and ink — each medium offering a unique voice to express the emotions and landscapes that inspire me. From the quiet serenity of a lotus pond at dawn to the vibrant energy of a bustling street, I strive to capture the poetry in everyday moments.
+                </p>
+                <div class="about-quote reveal">
+                    "Every canvas is a journey — from the first brushstroke to the last, I lose myself in the colours and find something new."
+                </div>
+                <p class="reveal">
+                    I'm currently pursuing my studies while continuing to develop my artistic voice. My goal is to one day study fine arts at a leading institution and share my perspective with the world through exhibitions and collaborations.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education-section section" id="education">
+        <div class="section-header reveal">
+            <div class="section-overline">Background</div>
+            <h2 class="section-title">Education & Journey</h2>
+            <p class="section-desc">The milestones that have shaped my artistic journey so far.</p>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-year">2024 – Present</div>
+                <div class="timeline-title">Senior Secondary (Class XI–XII)</div>
+                <div class="timeline-institution">Currently Pursuing</div>
+                <div class="timeline-desc">Focusing on arts and humanities while continuing to develop my portfolio with advanced painting techniques and mixed media exploration.</div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-year">2023</div>
+                <div class="timeline-title">Advanced Art Workshop</div>
+                <div class="timeline-institution">Summer Intensive Program</div>
+                <div class="timeline-desc">Completed an intensive workshop in oil painting, colour theory, and figure drawing under the mentorship of professional artists.</div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-year">2022</div>
+                <div class="timeline-title">First Art Exhibition</div>
+                <div class="timeline-institution">School & Local Gallery</div>
+                <div class="timeline-desc">Showcased a series of watercolor landscapes and charcoal portraits at a school exhibition, receiving the Best Young Artist award.</div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-year">2020 – 2024</div>
+                <div class="timeline-title">Secondary School (Class VI–X)</div>
+                <div class="timeline-institution">High School, India</div>
+                <div class="timeline-desc">Developed foundational art skills through dedicated classes and self-study, exploring various mediums including pencil, charcoal, watercolor, and acrylic.</div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-year">2019</div>
+                <div class="timeline-title">Formal Art Training Begins</div>
+                <div class="timeline-institution">Private Art Classes</div>
+                <div class="timeline-desc">Started formal training in classical drawing, perspective, and painting fundamentals that laid the groundwork for my artistic practice.</div>
+            </div>
+        </div>
+
+        <div class="achievements-grid">
+            <div class="achievement-card reveal reveal-delay-1">
+                <div class="achievement-number">50+</div>
+                <div class="achievement-label">Artworks Created</div>
+            </div>
+            <div class="achievement-card reveal reveal-delay-2">
+                <div class="achievement-number">5</div>
+                <div class="achievement-label">Exhibitions</div>
+            </div>
+            <div class="achievement-card reveal reveal-delay-3">
+                <div class="achievement-number">3</div>
+                <div class="achievement-label">Awards Won</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section section" id="contact">
+        <div class="section-header reveal">
+            <div class="section-overline">Get in Touch</div>
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-desc">Interested in a commission, collaboration, or just want to say hello? I'd love to hear from you.</p>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-links reveal">
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="contact-link">
+                <div class="contact-link-icon">
+                    <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg>
+                </div>
+                <span class="contact-link-label">Instagram</span>
+            </a>
+            <a href="mailto:sanjuktha@email.com" class="contact-link">
+                <div class="contact-link-icon">
+                    <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <span class="contact-link-label">Email</span>
+            </a>
+            <a href="https://behance.net" target="_blank" rel="noopener" class="contact-link">
+                <div class="contact-link-icon">
+                    <svg viewBox="0 0 24 24"><path d="M3 3h6c1.5 0 3 1.5 3 3s-1 2.5-2 3c1.5.5 3 2 3 4 0 2-1.5 4-4 4H3V3z"/><path d="M14 11h7"/><path d="M14 8h7"/><path d="M15 14c0 2 1.5 3 3.5 3S22 16 22 14s-1.5-3-3.5-3S15 12 15 14z"/></svg>
+                </div>
+                <span class="contact-link-label">Behance</span>
+            </a>
+        </div>
+
+        <div class="contact-email reveal">
+            <a href="mailto:sanjuktha@email.com">sanjuktha@email.com</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <span class="footer-text">&copy; 2025 Sanjuktha Reddy. All rights reserved.</span>
+            <a href="#hero" class="footer-back-top">Back to Top &uarr;</a>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox">&times;</button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous">&#8249;</button>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next">&#8250;</button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightboxImg">
+            <div class="lightbox-info">
+                <h4 id="lightboxTitle"></h4>
+                <span id="lightboxMedium"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="script.js"></script>
+</body>
+</html>
